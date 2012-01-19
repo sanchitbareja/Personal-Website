@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block header %}
+<script type="text/javascript" language="javascript" src="{{ STATIC_URL }}js/lytebox.js"></script>
+<link rel="stylesheet" href="{{ STATIC_URL }}css/lytebox.css" type="text/css" media="screen" />
+<script src="{{ STATIC_URL }}js/resume.js"></script>
+<link href="{{ STATIC_URL }}css/resume.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block title %}Past Projects{% endblock %}
+
+{% block content %}
+
+<div class="sidebar">
+	<ul>
+		<li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/275835_805239109_941774494_n.jpg" /></li>
+		<li id="indent"><a href="#Videos">Videos</a></li>
+		<li id="indent"><a href="#Engineering">Engineering</a></li>
+		<li id="indent"><a href="#Programming">Computer Science</a></li>
+	</ul>
+</div>
+
+<div class="resumecontent">
+<a name="Videos"></a>
+<h2 id="Videos">Videos</h2>
+	<p>These are some of the videos I have done over the years. I have lost a couple and yet to upload a few more but this should give you the kind of fun and time-wasting activities I liked to do!
+		<ul>
+			<li><a href="http://www.youtube.com/embed/klMZtT33tTA" class="lytebox" data-lyte-options="group:video" data-title="1">Video 1</a></li>
+			<li><a href="http://www.youtube.com/embed/pCvKjaV-6jA" class="lytebox" data-lyte-options="group:video" data-title="2">Video 2</a></li>
+			<li><a href="http://www.youtube.com/embed/wnhbbvQsO9s" class="lytebox" data-lyte-options="group:video" data-title="3">Video 3</a></li>
+			<li><a href="http://www.youtube.com/embed/P8HOB7pou40" class="lytebox" data-lyte-options="group:video" data-title="4">Video 4</a></li>
+			<li><a href="http://www.youtube.com/embed/ayxmyubmzfQ" class="lytebox" data-lyte-options="group:video" data-title="5">Video 5</a></li>
+		</ul>
+	</p>
+
+<a name="Engineering"></a>
+<h2 id="Engineering">Engineering</h2>
+	<p>In my last year at NUS High, I got really interested into engineering. Together with a group of 5 other friends, we participated in a Space Challenge and won the 1st prize!
+		<iframe frameborder="0" height="700px" src="https://docs.google.com/gview?a=v&amp;pid=explorer&amp;chrome=false&amp;api=true&amp;embedded=true&amp;srcid=0B7HoChlOVrfINGZlYTk2YTQtNjNjNC00N2JlLWE4YWYtZWVkYjQ0OTFiZTBk&amp;hl=en_GB" width="100%"></iframe>
+	</p>
+
+<a name="Programming"></a>
+<h2 id="Programming">Computer Science</h2>
+	<p><h3>Friendshipr (done with Vishnu Prem)</h3>This is all I am left with after 2008. A screenshot. Our hosting ended and the application died. Can't upload the report here as it belongs to the school.
+		<img src="http://dl.dropbox.com/u/2766979/screenshot-Friendshipr.png" />
+		<h3>Singapore Spirit (done with Minh Tu)</h3>Same, only a screen shot left after 1 year. Hosting died and I didn't have enough money to pay for it. Can't upload the report here as it belongs to the school.
+		<img src="http://dl.dropbox.com/u/2766979/screenshot-SingaporeSpirit.png" />
+	</p>
+
+{% endblock %}
+
+<!--
+
+1. <iframe width="560" height="315" src="http://www.youtube.com/embed/klMZtT33tTA" frameborder="0" allowfullscreen></iframe>
+2. <iframe width="560" height="315" src="http://www.youtube.com/embed/pCvKjaV-6jA" frameborder="0" allowfullscreen></iframe>
+3. <iframe width="560" height="315" src="http://www.youtube.com/embed/wnhbbvQsO9s" frameborder="0" allowfullscreen></iframe>
+4. <iframe width="420" height="315" src="http://www.youtube.com/embed/P8HOB7pou40" frameborder="0" allowfullscreen></iframe>
+5. <iframe width="420" height="315" src="http://www.youtube.com/embed/ayxmyubmzfQ" frameborder="0" allowfullscreen></iframe>
+
+-->

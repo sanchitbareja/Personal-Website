@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block header %}
+<style>
+
+            /* Demo styles */
+            .content{font:12px/1.4 "helvetica neue",arial,sans-serif;width:100%;margin:20px auto;}
+            h1{text-align:center;font-size:12px;font-weight:normal;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+            .cred{margin-top:20px;font-size:11px;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:520px}
+
+        </style>
+
+        <!-- load Galleria -->
+        <script src="{{ STATIC_URL }}galleria/galleria-1.2.6.min.js"></script>
+
+{% endblock %}
+
+{% block title %}Photography{% endblock %}
+
+{% block content %}
+<div class="content">
+        <h1>Selected Photos that I take during my vacactions</h1>
+
+        <!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+
+        <div id="galleria">
+            <a href="http://farm8.staticflickr.com/7171/6698474771_1f404dbfda_b.jpg">
+            	<img src="http://farm8.staticflickr.com/7171/6698474771_1f404dbfda_t.jpg">
+        	</a>
+            <a href="http://farm8.staticflickr.com/7031/6698472187_e59cfe48c9_b.jpg">
+                <img src="http://farm8.staticflickr.com/7031/6698472187_e59cfe48c9_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7153/6698469955_1939ed0484_b.jpg">
+                <img src="http://farm8.staticflickr.com/7153/6698469955_1939ed0484_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7158/6698466973_303cb2948b_b.jpg">
+                <img src="http://farm8.staticflickr.com/7158/6698466973_303cb2948b_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7023/6698464661_90a96acc66_b.jpg">
+                <img src="http://farm8.staticflickr.com/7023/6698464661_90a96acc66_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7024/6698460717_9ff2b6840e_b.jpg">
+                <img src="http://farm8.staticflickr.com/7024/6698460717_9ff2b6840e_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7029/6698457237_eac16b944c_b.jpg">
+                <img src="http://farm8.staticflickr.com/7029/6698457237_eac16b944c_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7010/6698454163_45bd786d4b_b.jpg">
+                <img src="http://farm8.staticflickr.com/7010/6698454163_45bd786d4b_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7149/6698451607_ce85a833a5_b.jpg">
+                <img src="http://farm8.staticflickr.com/7149/6698451607_ce85a833a5_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7030/6698448315_ffef4371a6_b.jpg">
+                <img src="http://farm8.staticflickr.com/7030/6698448315_ffef4371a6_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7003/6698446551_a332bfdba1_b.jpg">
+                <img src="http://farm8.staticflickr.com/7003/6698446551_a332bfdba1_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7142/6698443951_033ee6fa9c_b.jpg">
+                <img src="http://farm8.staticflickr.com/7142/6698443951_033ee6fa9c_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7023/6698441333_ecc249ecdc_b.jpg">
+                <img src="http://farm8.staticflickr.com/7023/6698441333_ecc249ecdc_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7147/6698438675_c3b10062d6_b.jpg">
+                <img src="http://farm8.staticflickr.com/7147/6698438675_c3b10062d6_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7165/6698436133_dfe5b05cae_b.jpg">
+                <img src="http://farm8.staticflickr.com/7165/6698436133_dfe5b05cae_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7143/6698433909_4fe41418da_b.jpg">
+                <img src="http://farm8.staticflickr.com/7143/6698433909_4fe41418da_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7174/6698431141_689b66168b_b.jpg">
+                <img src="http://farm8.staticflickr.com/7174/6698431141_689b66168b_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7159/6698428679_51892d5658_b.jpg">
+                <img src="http://farm8.staticflickr.com/7159/6698428679_51892d5658_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7008/6698426087_3676e2371a_b.jpg">
+                <img src="http://farm8.staticflickr.com/7008/6698426087_3676e2371a_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7029/6698421205_7da0e4a488_b.jpg">
+                <img src="http://farm8.staticflickr.com/7029/6698421205_7da0e4a488_t.jpg">
+            </a>
+            <a href="http://farm8.staticflickr.com/7162/6698418915_0e180a6779_b.jpg>
+                <img src="http://farm8.staticflickr.com/7162/6698418915_0e180a6779_t.jpg">
+            </a>
+        </div>
+    </div>
+    <script>
+    // Load the classic theme
+	Galleria.loadTheme('{{ STATIC_URL }}galleria/themes/classic/galleria.classic.min.js');
+
+	// Initialize Galleria
+	$('#galleria').galleria();
+
+    </script>
+{% endblock %}

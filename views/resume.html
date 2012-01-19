@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}resume{% endblock %}
+
+{% block content %}
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script src="{{ STATIC_URL }}js/resume.js"></script>
+<link href="{{ STATIC_URL }}css/resume.css" rel="stylesheet" type="text/css">
+
+<div class="sidebar">
+	<ul>
+		<li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-snc4/275835_805239109_941774494_n.jpg" /></li>
+		<li id="indent"><a href="#Profile">Profile</a></li>
+		<li id="indent"><a href="#Experience">Experience</a></li>
+		<li id="indent"><a href="#Education">Education</a></li>
+		<li id="indent"><a href="#Research">Research</a></li>
+		<li id="indent"><a href="#Clubs">Clubs</a></li>
+	</ul>
+</div>
+
+<div class="resumecontent">
+<a name="Profile"></a>
+<h2 id="Profile">Profile</h2>
+	<p>I am looking for an internship in software development and in particular am interested in mobile and web technologies. </p>
+
+<a name="Experience"></a>
+<h2 id="Experience">Experience</h2>
+	<h3>www.flypn.com, Singapore, March 2011-August 2011</h3>
+	<p>
+		<ul>
+			<li>first unofficial ‘start-up’ I founded with 2 other colleagues</li>
+			<li>to reduce paper consumption during conferences by being an online directory for brochures/flyers/product booklets</li>
+			<li>accessible through both the desktop and mobile browser</li>
+			<li>skills used: PHP, CakePHP, a bit of jQuery, MySQL, HTML, CSS</li>
+		</ul>
+	</p>
+
+	<h3>ITCrowd, iPhone Application on AppStore, Singapore, 2011</h3>
+	<p>
+		<ul>
+			<li>an application to collate all the flyers for the IT shows in Singapore</li>
+			<li>skills used: Objective-C, PHP, MySQL setup and table management</li>
+		</ul>
+	</p>
+
+	<h3>Web Administrator at DreamAxis Pte Ltd, Singapore, 2009 June, 3 weeks</h3>
+	<p>
+		<ul>
+			<li>spent 3 weeks at a startup in Singapore</li>
+			<li>helped in launching one of their websites for an upcoming conference</li>
+			<li>skills used: PHP, CakePHP, HTML, CSS, MySQL table management</li>
+		</ul>
+	</p>
+
+	<h3>Singapore Physics Olympiad 2009, Silver, October-November 2009</h3>
+	<p>
+		<ul>
+			<li>was trained for Physics Olympiad in my high school for 1 year</li>
+			<li>won a Silver (around top 20 in the Singapore) for the local Singapore Physics Olympiad</li>
+			<li>was trained at NUS by professors for 3 months (Jan - March 2010) to prepare for Asian Physics Olympiad but did not</li>
+			<li>make it for the national team eventually</li>
+			<li>improved tremendously in my analytical and logical thinking skills that has helped me in evaluating ideas</li>
+		</ul>
+	</p>
+
+	<h3>Startup@Singapore 2008, Semi-Finalist, Singapore </h3> 
+	<p>
+		<ul>
+			<li>Business-plan competition in which I participated as a single-member group</li>
+			<li>wrote a business plan about being a third-party service center to mobile companies like Nokia, Sony, etc.</li>
+			<li>would be able to provide better service to customers by being more convenient for customers to reach us</li>
+			<li>conceptualized an automated system that looked like an ATM for accepting phones just as how a postbox accepts posts</li>
+			<li>was fortunate to network with many business owners in Singapore and get their feedback on my idea</li>
+			<li>learnt a lot about entrepreneurship and costs related to setting up a business</li>
+		</ul>
+	</p>
+
+<a name="Education"></a>
+<h2 id="Education">Education</h2>
+	<h3>National University of Singapore High School of Mathematics and Science (NUS High) - 2007-2010 </h3>
+	<p>
+		<ul>
+			<li>graduated with High Distinction. Major With Honors in Maths, Physics and Chemistry. GPA 4.6/5.0.
+		</ul>
+	</p>
+	<h3>University of California, Berkeley - Electrical Engineering and Computer Science (EECS) 2011- 2015</h3>
+	<p> 
+		<ul>
+			<li>Fall 2011 GPA: 3.67 (attained an A+ in CS61A in which one of the projects involved completing the implementation of an interpreter for Logo)</li>
+		</ul>
+	</p>
+
+<a name="Research"></a>
+<h2 id="Research">Research</h2>
+	<h3>Singapore Space Challenge 2010, Champion, Project Leader, Singapore</h3>
+	<p>
+		<ul>
+			<li>semester long competition</li>
+			<li>led a team of 6 members</li>
+			<li>designed an airplane to theoretically compete with SpaceShipOne/WhiteKnight2</li>
+			<li>skilled acquired: Solidworks CAD software,  improved management skills</li>
+		</ul>
+	</p>
+
+<a name="Clubs"></a>
+<h2 id="Clubs">Clubs and other Acitivites</h2>
+	<h3>Yahoo Hackathon Fall 2011</h3>
+	<h3>Facebook Hackathon Fall 2011 </h3><p><ul><li>created a simple version of Twitter timeline that was similar to Facebook timeline</li></ul></p>
+	<h3>Freshmen Sophomore Entrepreneurship Society </h3><p><ul><li>weekly meetings where a speaker from the industry is invited to speak</li></ul></p>
+	<h3>Computer Science Undergraduate Association </h3><p><ul><li>attend most of the meetings, company information sessions and tech talks</li></ul></p>
+	<h3>Hackers @ Berkeley </h3><p><ul><li>attend most of their workshops in which they teach programming tools</li></ul></p>
+
+</div>
+{% endblock %}

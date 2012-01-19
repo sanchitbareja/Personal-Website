@@ -1,0 +1,26 @@
+h2 {
+	color:orange;
+	border-bottom:2px solid black;	
+	text-indent:20px;}
+.sidebar {
+	position:fixed;
+	float:left;
+	box-shadow:0 5px 5px 0px #ccc;
+	width:180px;}
+.sidebar ul{
+	list-style-type: none;
+	margin-left:0px;
+	padding:0px;}
+#indent{
+	margin-left:10px;
+	padding:10px;}
+.sidebar li a {
+	text-decoration: none; 
+	font-weight: bold;
+	color: #069; }            
+.sidebar li a:hover {
+	color: orange;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;}
+.resumecontent {
+	margin:0 100px 0 190px;}
